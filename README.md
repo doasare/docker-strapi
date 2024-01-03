@@ -10,6 +10,7 @@ The docker-compose utilizes postgres db container would recommend using remote d
 
 To configure database connection please check docker-compose file environemnt variables from line 10:
 
+```
  environment:
       DATABASE_CLIENT: postgres
       DATABASE_HOST: strapi_database  # Updated with the name of the database service
@@ -19,6 +20,7 @@ To configure database connection please check docker-compose file environemnt va
       DATABASE_PASSWORD: strapi_password  # Updated password
       DATABASE_SSL: 'false'
       NODE_ENV: development
+```
 
 ### `develop`
 
